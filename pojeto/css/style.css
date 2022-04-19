@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: monospace;
+}
+header{
+    background-color: rgb(255, 68, 68);
+    padding: 20px;
+}
+header h2{
+    color: whitesmoke;
+}
+footer{
+    background-color: rgb(255, 68, 68);
+    padding: 40px;
+}
+footer li{
+    color: whitesmoke;
+}
+.div-product{
+    margin: auto;
+    width: 50%;
+}
+.div-product img{
+    width: 100%;
+}
+.container{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 8px;
+    border-radius: 15px;
+    border: 2px solid rgb(255, 68, 68);
+}
+.div-title{
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgb(255, 68, 68);
+    border-radius: 15px;
+}
+.div-title h2{
+    color: whitesmoke;
+    text-align: center ;
+}
+.div-question{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.div-options{
+    margin-top: 8px;
+    display: flex;
+    font-size: small;
+    border: 2px solid rgb(255, 68, 68);
+    border-radius: 25px;
+    padding: 5px;
+}
+.div-options label{
+    margin-right: 5px;
+}
+.div-options button{
+    width: 100%;
+    background-color: rgb(255, 68, 68);
+    color: whitesmoke;
+    border-radius: 25px;
+    border: 2px solid rgb(255, 68, 68);
+    cursor: pointer;
+}
+.div-options button:hover{
+    background-color: rgb(243, 245, 151);
+    color: brown;
+}
+@media screen and (max-width:650px){
+    .div-options{
+        display: block;
+    }
+}
+.div-options label{
+    margin-right: 0px;
+}
